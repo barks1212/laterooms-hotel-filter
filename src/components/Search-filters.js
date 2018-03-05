@@ -3,7 +3,7 @@ import PT from 'prop-types';
 
 class SearchFilters extends React.Component {
   render() {
-    const facilities = Object.keys(this.props.filters)
+    const facilities = Object.keys(this.props.filters);
     return (
       <section className="filters is-fluid">
         <section className="container is-fluid is-mobile" id="filterContainer">
