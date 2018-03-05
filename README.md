@@ -27,7 +27,7 @@ In order to run this project you will need to clone onto your local machine and 
 
 Navigate to your favoured directory and clone the repository using this link: 
 
-```https://github.com/barks1212/laterooms-hotel-filter.git``
+```https://github.com/barks1212/laterooms-hotel-filter.git```
 
 Change into the project directory with:
 
@@ -35,7 +35,7 @@ Change into the project directory with:
 
 Install all project dependancies using:
 
-```npm install``
+```npm install```
 
 To run locally, navigate to the directory in a terminal window and run:
 
