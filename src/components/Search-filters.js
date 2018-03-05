@@ -11,7 +11,7 @@ class SearchFilters extends React.Component {
           <section className="column is-one-half" id="columnOne">
             {facilities1.map((facility, i) => {
               return <label className="checkbox" id="checkboxLeft" key={i}>
-                <input type="checkbox" value={facility} />
+                <input type="checkbox" value={facility} onChange={this.checkHandler} />
                 <span className="is-size-7">{`${facility.slice(0, 1).toUpperCase()}${facility.substring(1)}`}</span>
 
               </label>;
@@ -20,7 +20,7 @@ class SearchFilters extends React.Component {
           <section className="column is-one-half" id="columnTwo">
             {facilities2.map((facility, i) => {
               return <label className="checkbox" id="checkboxRight" key={i}>
-                <input type="checkbox" value={facility} />
+                <input type="checkbox" value={facility} onChange={this.checkHandler} />
                 <span className="is-size-7">{`${facility.slice(0, 1).toUpperCase()}${facility.substring(1)}`}</span>
               </label>;
             })}
@@ -29,6 +29,11 @@ class SearchFilters extends React.Component {
       </section>
     );
   }
+
+  checkHandler = (event) => {
+    this.props.hotelFilter(event.target.value);
+  }
+
 }
 
 SearchFilters.propTypes = {
