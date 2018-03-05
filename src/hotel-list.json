@@ -1,0 +1,80 @@
+[
+  {
+      "Name": "Yacht Harbour",
+      "StarRating": 5,
+      "Facilities": [
+          "car park",
+          "spa",
+          "pool",
+          "gym",
+          "full board",
+          "bar",
+          "restaurant"
+      ],
+      "Image": "https://s-ec.bstatic.com/images/hotel/max1024x768/308/30801707.jpg"
+  },
+  {
+      "Name": "The Adriana",
+      "StarRating": 3,
+      "Facilities": [
+          "car park",
+          "pool",
+          "bar",
+          "half board"
+      ],
+      "Image": "https://t-ec.bstatic.com/images/hotel/max1024x768/259/25947064.jpg"
+  },
+  {
+      "Name": "Hotel Fortuna",
+      "StarRating": 2,
+      "Facilities": [
+        "car park",
+        "half board"
+      ],
+      "Image": "https://t-ec.bstatic.com/xdata/images/hotel/square200/20927575.jpg?k=682cb00a8765e55512f0308073de3949fd0c1838601455fc5fac40b353ccb104&o="
+  },
+  {
+      "Name": "Aparthotel Pharia",
+      "StarRating": 4,
+      "Facilities": [
+          "full board",
+          "restaurant",
+          "car park",
+          "gym",
+          "pool",
+          "bar"
+      ],
+      "Image": "https://s-ec.bstatic.com/xdata/images/hotel/square200/103265799.jpg?k=bc8c01f4f5ce8911a10c788cb4864790756546ab0cc0a81c10c262f956efd84d&o="
+  },
+  {
+      "Name": "Amfora Grand Beach",
+      "StarRating": 4,
+      "Facilities": [
+          "car park",
+          "half board",
+          "gym",
+          "pool",
+          "spa",
+          "bar"
+      ],
+      "Image": "https://s-ec.bstatic.com/xdata/images/hotel/square200/41476685.jpg?k=d873a52b1d820f8e2f991bb015dc2ec9f64e6070e4890a117d2533b20fcd0e95&o="
+  },
+  {
+      "Name": "Hotel Podstine",
+      "StarRating": 3,
+      "Facilities": [
+          "full board",
+          "bar",
+          "restaurant"
+      ],
+      "Image": "https://t-ec.bstatic.com/xdata/images/hotel/square200/75624593.jpg?k=4ffeb58898091a00f7f5c63852905e4e429c0d6c63a05da3a2f080f6c5656204&o="
+  },
+  {
+      "Name": "Delfin",
+      "StarRating": 2,
+      "Facilities": [
+          "car park"
+      ],
+      "Image": "https://s-ec.bstatic.com/xdata/images/hotel/square200/58465884.jpg?k=4ccb617b3b004b9111f9657b7d711f7b32277a29aecb0d17496a7dfcbf8ae2c3&o="
+  }
+]
