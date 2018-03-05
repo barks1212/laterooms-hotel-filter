@@ -1,6 +1,7 @@
 import React from 'react';
 import hotelList from '../hotel-list.json';
 import SearchFilters from './Search-filters';
+import Hotel from './Hotel';
 
 class Hotels extends React.Component {
   state = {
@@ -16,10 +17,17 @@ class Hotels extends React.Component {
       'half board': false
     }
   }
-  render () {
+  render() {
     return (
       <section className="mainBody">
         <SearchFilters filters={this.state.filters} />
+        <section className="mainBodyHotels">
+          {this.state.hotelList.map((hotel, i) => {
+            return (
+              <Hotel hotel={hotel} key={i} />
+            );
+          })}
+        </section>
       </section>
     );
   }

@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SearchFilters> renders as expected without crashing and matches snapshot 1`] = `
+<section
+  className="filters"
+>
+  <section
+    className="columns is-mobile is-gapless"
+  >
+    <section
+      className="column is-one-half"
+      id="columnOne"
+    />
+    <section
+      className="column is-one-half"
+      id="columnTwo"
+    >
+      <label
+        className="checkbox"
+        id="checkboxRight"
+      >
+        <input
+          type="checkbox"
+          value="temp"
+        />
+        <span
+          className="is-size-7"
+        >
+          Temp
+        </span>
+      </label>
+    </section>
+  </section>
+</section>
+`;
