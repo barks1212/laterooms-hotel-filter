@@ -24,7 +24,7 @@ class Hotels extends React.Component {
       <section className="mainBody">
         <SearchFilters filters={this.state.filters} />
         <section className="mainBodyHotels">
-          <Sort sort={this.state.sort} hotelList={this.state.hotelList} />
+          <Sort sort={this.state.sort} sorter={this.sorter} hotelList={this.state.hotelList} />
           {this.state.hotelList.map((hotel, i) => {
             return (
               <section className="" key={i}>
@@ -36,6 +36,25 @@ class Hotels extends React.Component {
       </section>
     );
   }
+
+  sorter = (order, hotels) => {
+    this.setState({ sort: order });
+
+    if (order === 'ascending') {
+      let ascendingHotels = hotels.sort((a, b) => {
+        return a.StarRating - b.StarRating;
+      });
+      this.setState({ hotelList: ascendingHotels });
+    }
+
+    if (order === 'descending') {
+      let descendingHotels = hotels.sort((a, b) => {
+        return b.StarRating - a.StarRating;
+      });
+      this.setState({ hotelList: descendingHotels });
+    }
+  }
+
 }
 
 export default Hotels;
