@@ -2,10 +2,12 @@ import React from 'react';
 import hotelList from '../hotel-list.json';
 import SearchFilters from './Search-filters';
 import Hotel from './Hotel';
+import Sort from './Sort';
 
 class Hotels extends React.Component {
   state = {
     hotelList,
+    sort: 'ascending',
     filters: {
       bar: false,
       gym: false,
@@ -22,9 +24,12 @@ class Hotels extends React.Component {
       <section className="mainBody">
         <SearchFilters filters={this.state.filters} />
         <section className="mainBodyHotels">
+          <Sort sort={this.state.sort} hotelList={this.state.hotelList} />
           {this.state.hotelList.map((hotel, i) => {
             return (
-              <Hotel hotel={hotel} key={i} />
+              <section className="" key={i}>
+                <Hotel hotel={hotel} />
+              </section>
             );
           })}
         </section>

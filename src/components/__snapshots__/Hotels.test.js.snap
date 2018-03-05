@@ -4,8 +4,707 @@ exports[`<Hotels> renders as expected without crashing and matches snapshot 1`] 
 <section
   className="mainBody"
 >
-  <section>
-    filters
+  <section
+    className="filters"
+  >
+    <section
+      className="columns is-mobile is-gapless"
+    >
+      <section
+        className="column is-one-half"
+        id="columnOne"
+      >
+        <label
+          className="checkbox"
+          id="checkboxLeft"
+        >
+          <input
+            type="checkbox"
+            value="bar"
+          />
+          <span
+            className="is-size-7"
+          >
+            Bar
+          </span>
+        </label>
+        <label
+          className="checkbox"
+          id="checkboxLeft"
+        >
+          <input
+            type="checkbox"
+            value="gym"
+          />
+          <span
+            className="is-size-7"
+          >
+            Gym
+          </span>
+        </label>
+        <label
+          className="checkbox"
+          id="checkboxLeft"
+        >
+          <input
+            type="checkbox"
+            value="spa"
+          />
+          <span
+            className="is-size-7"
+          >
+            Spa
+          </span>
+        </label>
+        <label
+          className="checkbox"
+          id="checkboxLeft"
+        >
+          <input
+            type="checkbox"
+            value="pool"
+          />
+          <span
+            className="is-size-7"
+          >
+            Pool
+          </span>
+        </label>
+      </section>
+      <section
+        className="column is-one-half"
+        id="columnTwo"
+      >
+        <label
+          className="checkbox"
+          id="checkboxRight"
+        >
+          <input
+            type="checkbox"
+            value="restaurant"
+          />
+          <span
+            className="is-size-7"
+          >
+            Restaurant
+          </span>
+        </label>
+        <label
+          className="checkbox"
+          id="checkboxRight"
+        >
+          <input
+            type="checkbox"
+            value="car park"
+          />
+          <span
+            className="is-size-7"
+          >
+            Car park
+          </span>
+        </label>
+        <label
+          className="checkbox"
+          id="checkboxRight"
+        >
+          <input
+            type="checkbox"
+            value="full board"
+          />
+          <span
+            className="is-size-7"
+          >
+            Full board
+          </span>
+        </label>
+        <label
+          className="checkbox"
+          id="checkboxRight"
+        >
+          <input
+            type="checkbox"
+            value="half board"
+          />
+          <span
+            className="is-size-7"
+          >
+            Half board
+          </span>
+        </label>
+      </section>
+    </section>
+  </section>
+  <section
+    className="mainBodyHotels"
+  >
+    <section
+      className=""
+    >
+      <section
+        className="hotels"
+      >
+        <section
+          className="card is-mobile"
+          id="hotelCard"
+        >
+          <figure
+            className="image is-128x128"
+          >
+            <img
+              alt=""
+              id="hotelPic"
+              src="https://s-ec.bstatic.com/images/hotel/max1024x768/308/30801707.jpg"
+            />
+          </figure>
+          <section
+            className="nameAndRating"
+          >
+            <h2
+              className="subtitle has-text-weight-bold is-size-7 is-marginless"
+            >
+              Yacht Harbour
+            </h2>
+            <span
+              className="starRating"
+            >
+              <i
+                aria-hidden="true"
+                className="fa fa-star"
+                id="stars"
+              />
+              <i
+                aria-hidden="true"
+                className="fa fa-star"
+                id="stars"
+              />
+              <i
+                aria-hidden="true"
+                className="fa fa-star"
+                id="stars"
+              />
+              <i
+                aria-hidden="true"
+                className="fa fa-star"
+                id="stars"
+              />
+              <i
+                aria-hidden="true"
+                className="fa fa-star"
+                id="stars"
+              />
+            </span>
+          </section>
+        </section>
+        <section
+          className="hotelContent"
+        >
+          <section
+            className="container is-mobile"
+            id="facilities"
+          >
+            <p
+              className="facility is-size-6 is-mobile"
+            >
+              Car park
+            </p>
+            <p
+              className="facility is-size-6 is-mobile"
+            >
+              Spa
+            </p>
+            <p
+              className="facility is-size-6 is-mobile"
+            >
+              Pool
+            </p>
+            <p
+              className="facility is-size-6 is-mobile"
+            >
+              Gym
+            </p>
+            <p
+              className="facility is-size-6 is-mobile"
+            >
+              Full board
+            </p>
+            <p
+              className="facility is-size-6 is-mobile"
+            >
+              Bar
+            </p>
+            <p
+              className="facility is-size-6 is-mobile"
+            >
+              Restaurant
+            </p>
+          </section>
+        </section>
+      </section>
+    </section>
+    <section
+      className=""
+    >
+      <section
+        className="hotels"
+      >
+        <section
+          className="card is-mobile"
+          id="hotelCard"
+        >
+          <figure
+            className="image is-128x128"
+          >
+            <img
+              alt=""
+              id="hotelPic"
+              src="https://t-ec.bstatic.com/images/hotel/max1024x768/259/25947064.jpg"
+            />
+          </figure>
+          <section
+            className="nameAndRating"
+          >
+            <h2
+              className="subtitle has-text-weight-bold is-size-7 is-marginless"
+            >
+              The Adriana
+            </h2>
+            <span
+              className="starRating"
+            >
+              <i
+                aria-hidden="true"
+                className="fa fa-star"
+                id="stars"
+              />
+              <i
+                aria-hidden="true"
+                className="fa fa-star"
+                id="stars"
+              />
+              <i
+                aria-hidden="true"
+                className="fa fa-star"
+                id="stars"
+              />
+            </span>
+          </section>
+        </section>
+        <section
+          className="hotelContent"
+        >
+          <section
+            className="container is-mobile"
+            id="facilities"
+          >
+            <p
+              className="facility is-size-6 is-mobile"
+            >
+              Car park
+            </p>
+            <p
+              className="facility is-size-6 is-mobile"
+            >
+              Pool
+            </p>
+            <p
+              className="facility is-size-6 is-mobile"
+            >
+              Bar
+            </p>
+            <p
+              className="facility is-size-6 is-mobile"
+            >
+              Half board
+            </p>
+          </section>
+        </section>
+      </section>
+    </section>
+    <section
+      className=""
+    >
+      <section
+        className="hotels"
+      >
+        <section
+          className="card is-mobile"
+          id="hotelCard"
+        >
+          <figure
+            className="image is-128x128"
+          >
+            <img
+              alt=""
+              id="hotelPic"
+              src="https://t-ec.bstatic.com/xdata/images/hotel/square200/20927575.jpg?k=682cb00a8765e55512f0308073de3949fd0c1838601455fc5fac40b353ccb104&o="
+            />
+          </figure>
+          <section
+            className="nameAndRating"
+          >
+            <h2
+              className="subtitle has-text-weight-bold is-size-7 is-marginless"
+            >
+              Hotel Fortuna
+            </h2>
+            <span
+              className="starRating"
+            >
+              <i
+                aria-hidden="true"
+                className="fa fa-star"
+                id="stars"
+              />
+              <i
+                aria-hidden="true"
+                className="fa fa-star"
+                id="stars"
+              />
+            </span>
+          </section>
+        </section>
+        <section
+          className="hotelContent"
+        >
+          <section
+            className="container is-mobile"
+            id="facilities"
+          >
+            <p
+              className="facility is-size-6 is-mobile"
+            >
+              Car park
+            </p>
+            <p
+              className="facility is-size-6 is-mobile"
+            >
+              Half board
+            </p>
+          </section>
+        </section>
+      </section>
+    </section>
+    <section
+      className=""
+    >
+      <section
+        className="hotels"
+      >
+        <section
+          className="card is-mobile"
+          id="hotelCard"
+        >
+          <figure
+            className="image is-128x128"
+          >
+            <img
+              alt=""
+              id="hotelPic"
+              src="https://s-ec.bstatic.com/xdata/images/hotel/square200/103265799.jpg?k=bc8c01f4f5ce8911a10c788cb4864790756546ab0cc0a81c10c262f956efd84d&o="
+            />
+          </figure>
+          <section
+            className="nameAndRating"
+          >
+            <h2
+              className="subtitle has-text-weight-bold is-size-7 is-marginless"
+            >
+              Aparthotel Pharia
+            </h2>
+            <span
+              className="starRating"
+            >
+              <i
+                aria-hidden="true"
+                className="fa fa-star"
+                id="stars"
+              />
+              <i
+                aria-hidden="true"
+                className="fa fa-star"
+                id="stars"
+              />
+              <i
+                aria-hidden="true"
+                className="fa fa-star"
+                id="stars"
+              />
+              <i
+                aria-hidden="true"
+                className="fa fa-star"
+                id="stars"
+              />
+            </span>
+          </section>
+        </section>
+        <section
+          className="hotelContent"
+        >
+          <section
+            className="container is-mobile"
+            id="facilities"
+          >
+            <p
+              className="facility is-size-6 is-mobile"
+            >
+              Full board
+            </p>
+            <p
+              className="facility is-size-6 is-mobile"
+            >
+              Restaurant
+            </p>
+            <p
+              className="facility is-size-6 is-mobile"
+            >
+              Car park
+            </p>
+            <p
+              className="facility is-size-6 is-mobile"
+            >
+              Gym
+            </p>
+            <p
+              className="facility is-size-6 is-mobile"
+            >
+              Pool
+            </p>
+            <p
+              className="facility is-size-6 is-mobile"
+            >
+              Bar
+            </p>
+          </section>
+        </section>
+      </section>
+    </section>
+    <section
+      className=""
+    >
+      <section
+        className="hotels"
+      >
+        <section
+          className="card is-mobile"
+          id="hotelCard"
+        >
+          <figure
+            className="image is-128x128"
+          >
+            <img
+              alt=""
+              id="hotelPic"
+              src="https://s-ec.bstatic.com/xdata/images/hotel/square200/41476685.jpg?k=d873a52b1d820f8e2f991bb015dc2ec9f64e6070e4890a117d2533b20fcd0e95&o="
+            />
+          </figure>
+          <section
+            className="nameAndRating"
+          >
+            <h2
+              className="subtitle has-text-weight-bold is-size-7 is-marginless"
+            >
+              Amfora Grand Beach
+            </h2>
+            <span
+              className="starRating"
+            >
+              <i
+                aria-hidden="true"
+                className="fa fa-star"
+                id="stars"
+              />
+              <i
+                aria-hidden="true"
+                className="fa fa-star"
+                id="stars"
+              />
+              <i
+                aria-hidden="true"
+                className="fa fa-star"
+                id="stars"
+              />
+              <i
+                aria-hidden="true"
+                className="fa fa-star"
+                id="stars"
+              />
+            </span>
+          </section>
+        </section>
+        <section
+          className="hotelContent"
+        >
+          <section
+            className="container is-mobile"
+            id="facilities"
+          >
+            <p
+              className="facility is-size-6 is-mobile"
+            >
+              Car park
+            </p>
+            <p
+              className="facility is-size-6 is-mobile"
+            >
+              Half board
+            </p>
+            <p
+              className="facility is-size-6 is-mobile"
+            >
+              Gym
+            </p>
+            <p
+              className="facility is-size-6 is-mobile"
+            >
+              Pool
+            </p>
+            <p
+              className="facility is-size-6 is-mobile"
+            >
+              Spa
+            </p>
+            <p
+              className="facility is-size-6 is-mobile"
+            >
+              Bar
+            </p>
+          </section>
+        </section>
+      </section>
+    </section>
+    <section
+      className=""
+    >
+      <section
+        className="hotels"
+      >
+        <section
+          className="card is-mobile"
+          id="hotelCard"
+        >
+          <figure
+            className="image is-128x128"
+          >
+            <img
+              alt=""
+              id="hotelPic"
+              src="https://t-ec.bstatic.com/xdata/images/hotel/square200/75624593.jpg?k=4ffeb58898091a00f7f5c63852905e4e429c0d6c63a05da3a2f080f6c5656204&o="
+            />
+          </figure>
+          <section
+            className="nameAndRating"
+          >
+            <h2
+              className="subtitle has-text-weight-bold is-size-7 is-marginless"
+            >
+              Hotel Podstine
+            </h2>
+            <span
+              className="starRating"
+            >
+              <i
+                aria-hidden="true"
+                className="fa fa-star"
+                id="stars"
+              />
+              <i
+                aria-hidden="true"
+                className="fa fa-star"
+                id="stars"
+              />
+              <i
+                aria-hidden="true"
+                className="fa fa-star"
+                id="stars"
+              />
+            </span>
+          </section>
+        </section>
+        <section
+          className="hotelContent"
+        >
+          <section
+            className="container is-mobile"
+            id="facilities"
+          >
+            <p
+              className="facility is-size-6 is-mobile"
+            >
+              Full board
+            </p>
+            <p
+              className="facility is-size-6 is-mobile"
+            >
+              Bar
+            </p>
+            <p
+              className="facility is-size-6 is-mobile"
+            >
+              Restaurant
+            </p>
+          </section>
+        </section>
+      </section>
+    </section>
+    <section
+      className=""
+    >
+      <section
+        className="hotels"
+      >
+        <section
+          className="card is-mobile"
+          id="hotelCard"
+        >
+          <figure
+            className="image is-128x128"
+          >
+            <img
+              alt=""
+              id="hotelPic"
+              src="https://s-ec.bstatic.com/xdata/images/hotel/square200/58465884.jpg?k=4ccb617b3b004b9111f9657b7d711f7b32277a29aecb0d17496a7dfcbf8ae2c3&o="
+            />
+          </figure>
+          <section
+            className="nameAndRating"
+          >
+            <h2
+              className="subtitle has-text-weight-bold is-size-7 is-marginless"
+            >
+              Delfin
+            </h2>
+            <span
+              className="starRating"
+            >
+              <i
+                aria-hidden="true"
+                className="fa fa-star"
+                id="stars"
+              />
+              <i
+                aria-hidden="true"
+                className="fa fa-star"
+                id="stars"
+              />
+            </span>
+          </section>
+        </section>
+        <section
+          className="hotelContent"
+        >
+          <section
+            className="container is-mobile"
+            id="facilities"
+          >
+            <p
+              className="facility is-size-6 is-mobile"
+            >
+              Car park
+            </p>
+          </section>
+        </section>
+      </section>
+    </section>
   </section>
 </section>
 `;
