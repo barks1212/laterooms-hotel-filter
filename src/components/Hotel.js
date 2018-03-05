@@ -2,8 +2,9 @@ import React from 'react';
 import PT from 'prop-types';
 
 const Hotel = (props) => {
-  const arr = new Array(props.hotel.StarRating);
-  const stars = arr.fill(<i className="fa fa-star" id="stars" aria-hidden="true"></i>);
+  const stars = new Array(props.hotel.StarRating).fill(true).map((element, index) => {
+    return <i key={index} className="fa fa-star" id="stars" aria-hidden="true"></i>  
+  });
 
   return (
     <section className="hotels">
