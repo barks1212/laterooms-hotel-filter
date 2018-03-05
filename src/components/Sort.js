@@ -11,7 +11,6 @@ const Sort = (props) => (
 );
 
 Sort.propTypes = {
-  sort: PT.string.isRequired,
   hotelList: PT.array.isRequired,
   sorter: PT.func.isRequired
 };

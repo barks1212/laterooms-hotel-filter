@@ -3,7 +3,7 @@ import PT from 'prop-types';
 
 const Hotel = (props) => {
   const stars = new Array(props.hotel.StarRating).fill(true).map((element, index) => {
-    return <i key={index} className="fa fa-star" id="stars" aria-hidden="true"></i>  
+    return <i key={index} className="fa fa-star" id="stars" aria-hidden="true"></i>;
   });
 
   return (
