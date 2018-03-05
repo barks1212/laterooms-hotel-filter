@@ -5,9 +5,9 @@ import React from 'react';
 import renderer from 'react-test-renderer';
 import SearchFilters from './Search-filters';
 
-describe('<Search-filters>', () => {
+describe('<SearchFilters>', () => {
   it('renders as expected without crashing and matches snapshot', () => {
-    const tree = renderer.create(<Search-filters filters={{temp: false}} filterHotels={jest.fn()} />).toJSON();
+    const tree = renderer.create(<SearchFilters filters={{temp: false}} />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 });
