@@ -55,6 +55,31 @@ class Hotels extends React.Component {
     }
   }
 
+  hotelFilter = (fac /*filters*/) => {
+    let newFilters = Object.assign(this.state.filters, { [fac]: !this.state.filters[fac] });
+    this.setState({ filters: newFilters });
+    
+    let checkedChecker = [];
+    for (let key in this.state.filters) {
+      if (this.state.filters[key]) checkedChecker.push(key);
+    }
+
+    let newHotelList = hotelList.filter((hotel) => {
+      return checkedChecker.every((facility) => {
+        return hotel.Facilities.includes(facility);
+      });
+    });
+    return this.sorter(this.state.sort, newHotelList);
+    // let updateFilters = filters;
+    // for (let key in updateFilters) {
+    //   if (fac === key) updateFilters[fac] = !updateFilters[fac];
+    // }
+    // this.setState({filters: updateFilters});
+
+    // const checkedChecker = [];
+    // for (let key in updateFilters)
+  }
+
 }
 
 export default Hotels;
