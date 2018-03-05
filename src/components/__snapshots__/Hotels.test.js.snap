@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Hotels> renders as expected without crashing and matches snapshot 1`] = `
+<section
+  className="mainBody"
+>
+  <section>
+    filters
+  </section>
+</section>
+`;
