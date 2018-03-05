@@ -32,7 +32,8 @@ class SearchFilters extends React.Component {
 }
 
 SearchFilters.propTypes = {
-  filters: PT.object.isRequired
+  filters: PT.object.isRequired,
+  hotelFilter: PT.func.isRequired
 };
 
 export default SearchFilters;

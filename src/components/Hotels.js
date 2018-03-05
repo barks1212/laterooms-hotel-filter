@@ -22,7 +22,7 @@ class Hotels extends React.Component {
   render() {
     return (
       <section className="mainBody">
-        <SearchFilters filters={this.state.filters} />
+        <SearchFilters filters={this.state.filters} hotelFilter={this.hotelFilter}/>
         <section className="mainBodyHotels">
           <Sort sort={this.state.sort} sorter={this.sorter} hotelList={this.state.hotelList} />
           {this.state.hotelList.map((hotel, i) => {
