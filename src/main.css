@@ -5,7 +5,9 @@
   overflow: hidden;
 }
 
-
+.logo {
+  margin-top: 2vh;
+}
 
 #logo {
   margin-top: 2vh;
@@ -18,4 +20,19 @@
   justify-content: center;
 }
 
+#headerBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  max-width: 40%;
+  opacity: 0.9;
+  max-height: 30%;
+  height: 7.5vh;
+  box-shadow: 0px 2px 5px black ;
+}
 
+#searchResults {
+  opacity: 0.9;
+  color: black;
+}
