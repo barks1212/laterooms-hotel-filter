@@ -19,6 +19,7 @@ exports[`<Hotels> renders as expected without crashing and matches snapshot 1`] 
           id="checkboxLeft"
         >
           <input
+            onChange={[Function]}
             type="checkbox"
             value="bar"
           />
@@ -33,6 +34,7 @@ exports[`<Hotels> renders as expected without crashing and matches snapshot 1`] 
           id="checkboxLeft"
         >
           <input
+            onChange={[Function]}
             type="checkbox"
             value="gym"
           />
@@ -47,6 +49,7 @@ exports[`<Hotels> renders as expected without crashing and matches snapshot 1`] 
           id="checkboxLeft"
         >
           <input
+            onChange={[Function]}
             type="checkbox"
             value="spa"
           />
@@ -61,6 +64,7 @@ exports[`<Hotels> renders as expected without crashing and matches snapshot 1`] 
           id="checkboxLeft"
         >
           <input
+            onChange={[Function]}
             type="checkbox"
             value="pool"
           />
@@ -80,6 +84,7 @@ exports[`<Hotels> renders as expected without crashing and matches snapshot 1`] 
           id="checkboxRight"
         >
           <input
+            onChange={[Function]}
             type="checkbox"
             value="restaurant"
           />
@@ -94,6 +99,7 @@ exports[`<Hotels> renders as expected without crashing and matches snapshot 1`] 
           id="checkboxRight"
         >
           <input
+            onChange={[Function]}
             type="checkbox"
             value="car park"
           />
@@ -108,6 +114,7 @@ exports[`<Hotels> renders as expected without crashing and matches snapshot 1`] 
           id="checkboxRight"
         >
           <input
+            onChange={[Function]}
             type="checkbox"
             value="full board"
           />
@@ -122,6 +129,7 @@ exports[`<Hotels> renders as expected without crashing and matches snapshot 1`] 
           id="checkboxRight"
         >
           <input
+            onChange={[Function]}
             type="checkbox"
             value="half board"
           />
