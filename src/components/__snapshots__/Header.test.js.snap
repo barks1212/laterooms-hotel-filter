@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Header> renders as expected without crashing and matches snapshot 1`] = `
+<section
+  className="hero is-mobile is-info is-bold is-small"
+>
+  <section
+    className="hero-head"
+  >
+    <section
+      className="container"
+    >
+      <span
+        className="logo"
+      >
+        <img
+          alt="logo"
+          id="logo"
+          src="https://p3.zdassets.com/hc/settings_assets/1284070/200291205/Ot3O9UQvJGka8SfWWLVjRQ-LateRooms_Logo_H_RGB.png"
+        />
+      </span>
+    </section>
+    <section
+      className="hero-body"
+    >
+      <section
+        className="container is-mobile has-text-centered"
+        id="headerBox"
+      >
+        <h2
+          className="title is-size-6"
+          id="searchResults"
+        >
+          Search Results
+        </h2>
+      </section>
+    </section>
+  </section>
+</section>
+`;
