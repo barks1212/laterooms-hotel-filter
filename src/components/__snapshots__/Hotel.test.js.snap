@@ -1,0 +1,104 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Hotel> renders as expected without crashing and matches snapshot 1`] = `
+<section
+  className="hotels"
+>
+  <section
+    className="card is-mobile"
+    id="hotelCard"
+  >
+    <figure
+      className="image is-128x128"
+    >
+      <img
+        alt=""
+        id="hotelPic"
+        src="https://s-ec.bstatic.com/images/hotel/max1024x768/308/30801707.jpg"
+      />
+    </figure>
+    <section
+      className="nameAndRating"
+    >
+      <h2
+        className="subtitle has-text-weight-bold is-size-7 is-marginless"
+      >
+        Yacht Harbour
+      </h2>
+      <span
+        className="starRating"
+      >
+        <i
+          aria-hidden="true"
+          className="fa fa-star"
+          id="stars"
+        />
+        <i
+          aria-hidden="true"
+          className="fa fa-star"
+          id="stars"
+        />
+        <i
+          aria-hidden="true"
+          className="fa fa-star"
+          id="stars"
+        />
+        <i
+          aria-hidden="true"
+          className="fa fa-star"
+          id="stars"
+        />
+        <i
+          aria-hidden="true"
+          className="fa fa-star"
+          id="stars"
+        />
+      </span>
+    </section>
+  </section>
+  <section
+    className="hotelContent"
+  >
+    <section
+      className="container is-mobile"
+      id="facilities"
+    >
+      <p
+        className="facility is-size-6 is-mobile"
+      >
+        Car park
+      </p>
+      <p
+        className="facility is-size-6 is-mobile"
+      >
+        Spa
+      </p>
+      <p
+        className="facility is-size-6 is-mobile"
+      >
+        Pool
+      </p>
+      <p
+        className="facility is-size-6 is-mobile"
+      >
+        Gym
+      </p>
+      <p
+        className="facility is-size-6 is-mobile"
+      >
+        Full board
+      </p>
+      <p
+        className="facility is-size-6 is-mobile"
+      >
+        Bar
+      </p>
+      <p
+        className="facility is-size-6 is-mobile"
+      >
+        Restaurant
+      </p>
+    </section>
+  </section>
+</section>
+`;

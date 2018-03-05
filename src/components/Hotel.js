@@ -27,11 +27,10 @@ const Hotel = (props) => {
       </section>
     </section>
   );
-}
+};
 
 Hotel.propTypes = {
   hotel: PT.object.isRequired,
-  key: PT.number
 };
 
 export default Hotel;
