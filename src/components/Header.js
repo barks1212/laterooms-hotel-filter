@@ -12,7 +12,6 @@ const Header = () => (
         </section>
       </section>
     </section>
-
   </section>
 );
 
