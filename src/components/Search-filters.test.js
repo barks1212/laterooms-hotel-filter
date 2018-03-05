@@ -7,7 +7,7 @@ import SearchFilters from './Search-filters';
 
 describe('<SearchFilters>', () => {
   it('renders as expected without crashing and matches snapshot', () => {
-    const tree = renderer.create(<SearchFilters filters={{temp: false}} />).toJSON();
+    const tree = renderer.create(<SearchFilters filters={{temp: false}} filterHotels={jest.fn()} />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 });

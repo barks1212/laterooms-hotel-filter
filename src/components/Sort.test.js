@@ -36,7 +36,7 @@ describe('<Sort>', () => {
     ];
 
 
-    const tree = renderer.create(<Sort sort={{ temp: false }} hotelList={hotels} />).toJSON();
+    const tree = renderer.create(<Sort sort={{ temp: false }} hotelList={hotels} sorter={jest.fn()} />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 });
