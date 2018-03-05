@@ -12,6 +12,7 @@ exports[`<Sort> renders as expected without crashing and matches snapshot 1`] = 
   <button
     className="button is-small is-paddingless is-marginless is-text"
     id="sortButton"
+    onClick={[Function]}
   >
     Descending
   </button>
@@ -19,6 +20,7 @@ exports[`<Sort> renders as expected without crashing and matches snapshot 1`] = 
   <button
     className="button is-small is-paddingless is-marginless is-text"
     id="sortButton"
+    onClick={[Function]}
   >
     Ascending
   </button>
