@@ -11,6 +11,7 @@ describe('<Hotels>', () => {
     const tree = renderer.create(<Hotels />).toJSON();
     expect(tree).toMatchSnapshot();
   });
+
   it('can sort hotels based on stars in ascending order', () => {
     const wrapper = mount(<Hotels />);
     const hotels = wrapper.state().hotelList;
@@ -25,5 +26,17 @@ describe('<Hotels>', () => {
     wrapper.find('button').at(0).simulate('click');
     expect(hotels[0].StarRating).toEqual(5);
     expect(hotels[hotels.length - 1].StarRating).toEqual(2);
+  });
+
+  it('filters hotels based on their facilities', () => {
+    const wrapper = mount(<Hotels />);
+    wrapper.find('input').at(0).simulate('change');
+    const facility = wrapper.find('input').at(0).getElement().props.value;
+    wrapper.state().hotelList.forEach((hotel) => {
+      expect(hotel.Facilities.includes(facility)).toBe(true);
+    });
+    expect(wrapper.state().hotelList).toHaveLength(5);
+    wrapper.find('input').at(1).simulate('change');
+    expect(wrapper.state().hotelList).toHaveLength(3);
   });
 });

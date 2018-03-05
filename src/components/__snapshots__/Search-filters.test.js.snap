@@ -20,6 +20,7 @@ exports[`<SearchFilters> renders as expected without crashing and matches snapsh
         id="checkboxRight"
       >
         <input
+          onChange={[Function]}
           type="checkbox"
           value="temp"
         />
