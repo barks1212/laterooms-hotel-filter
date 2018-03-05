@@ -70,14 +70,6 @@ class Hotels extends React.Component {
       });
     });
     return this.sorter(this.state.sort, newHotelList);
-    // let updateFilters = filters;
-    // for (let key in updateFilters) {
-    //   if (fac === key) updateFilters[fac] = !updateFilters[fac];
-    // }
-    // this.setState({filters: updateFilters});
-
-    // const checkedChecker = [];
-    // for (let key in updateFilters)
   }
 
 }
