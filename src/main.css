@@ -38,43 +38,19 @@
   color: black;
 }
 
-.filters{
-  display: flex;
-  justify-content: center;
+.mainBodyFilters {
   border-bottom: black solid 1px;
   border-left: black solid 1px;
-  border-right: black solid 1px;
-  margin-bottom: 1vh;
+  border-right: rgb(128, 124, 124) solid 1px;
 }
 
-.columns {
-  display: flex;
-  justify-content: center;
-  width: 90%;
-}
 
-.column {
-  max-width: 50%;
+#filterContainer {
   display: flex;
   flex-wrap: wrap;
-  flex-direction: column;
-}
-
-#checkboxRight {
+  justify-content: space-around;
   max-width: 85%;
-  width: 22vw;
-  margin-left: 6vw;
-}
-
-#checkboxLeft {
-  max-width: 85%;
-  width: 15vw;
-  margin-right: 2vw;
-}
-
-#columnOne{
-  display: flex;
-  align-items: flex-end;
+  margin-left: 5vw;
 }
 
 .hotels {
@@ -103,15 +79,13 @@
   color: green;
 }
 
-.hotelContent {
-  max-width: 50vw;
-  display: flex;
-  flex-direction: row;
+#hotelContent {
+  max-width: 95vw;
+  width: 60vw;
 }
 
-#facilities {
- display: flex;
- margin-left: 1vw;
- justify-content: space-around;
- flex-direction: column;
+.column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }

@@ -2,8 +2,12 @@ import React from 'react';
 import PT from 'prop-types';
 
 const Hotel = (props) => {
-  const arr = new Array(props.hotel.StarRating);
-  const stars = arr.fill(<i className="fa fa-star" id="stars" aria-hidden="true"></i>);
+  const stars = new Array(props.hotel.StarRating).fill(true).map((element, index) => {
+    return <i key={index} className="fa fa-star" id="stars" aria-hidden="true"></i>;
+  });
+  const facs = props.hotel.Facilities;
+  const facilities1 = facs.slice(0, facs.length / 2);
+  const facilities2 = facs.slice(facs.length / 2);
 
   return (
     <section className="hotels">
@@ -16,11 +20,18 @@ const Hotel = (props) => {
           <span className="starRating">{stars}</span>
         </section>
       </section>
-      <section className="hotelContent">
-        <section className="container is-mobile" id="facilities">
-          {props.hotel.Facilities.map((facility, i) => {
+      <section className="columns is-mobile" id="hotelContent">
+        <section className="column is-half-desktop" id="facilitiesLeft">
+          {facilities1.map((facility, i) => {
             return (
-              <p className="facility is-size-6 is-mobile" key={i}>{`${facility[0].toUpperCase()}${facility.substring(1)}`}</p>
+              <p className="facility facility is-size-7-mobile" key={i}>{`${facility[0].toUpperCase()}${facility.substring(1)}`}</p>
+            );
+          })}
+        </section>
+        <section className="column is-half-desktop" id="facilitiesRight">
+          {facilities2.map((facility, i) => {
+            return (
+              <p className="facility is-size-7-mobile" key={i}>{`${facility[0].toUpperCase()}${facility.substring(1)}`}</p>
             );
           })}
         </section>
