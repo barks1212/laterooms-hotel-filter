@@ -10,8 +10,7 @@ class SearchFilters extends React.Component {
           {facilities.map((facility, i) => {
             return <label className="checkbox" id="checkboxes" key={i}>
               <input type="checkbox" value={facility} onChange={this.checkHandler} />
-              <span className="is-size-7">{`${facility.slice(0, 1).toUpperCase()}${facility.substring(1)}`}</span>
-
+              <span className="is-size-7-mobile is-size-6-desktop is-bold">{`${facility.slice(0, 1).toUpperCase()}${facility.substring(1)}`}</span>
             </label>;
           })}
         </section>
